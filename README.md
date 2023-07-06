@@ -18,16 +18,19 @@ FYI:
 User Flow:
 
 1) Menu where user can select one of the options:
+
 ![image](https://github.com/dmytro-pos/Task-Management-System/assets/106164548/856d86a0-c71f-47d4-bb6a-07b1c8394eda)
 
 - "Add new task" option selected: 
 
 User asked to fill in questionarrie:
+
 ![image](https://github.com/dmytro-pos/Task-Management-System/assets/106164548/202ecacc-1fd2-493d-9d5d-e8f6ee7b4687)
 
 And task is added to the in-memory database table.
 
-- "Show list of tasks" option selected: 
+- "Show list of tasks" option selected:
+  
 ![image](https://github.com/dmytro-pos/Task-Management-System/assets/106164548/79b045d9-a3f3-48ae-85bc-564b36a59ed1)
 
 List of tasks is displayed to the user.
@@ -35,6 +38,7 @@ List of tasks is displayed to the user.
 - "Update task status" option selected
 
 User asked to fill in data related to task update request:
+
 ![image](https://github.com/dmytro-pos/Task-Management-System/assets/106164548/aafde4d4-e9a1-4eac-9d69-2a2c0de85f57)
 
 Message: "Update request will be processed. In case of any invalid data - update will not be performed" displayed to user and request will try to be updated if data is valid.
