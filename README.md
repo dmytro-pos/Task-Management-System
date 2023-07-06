@@ -62,5 +62,9 @@ Didn't implemented retry logic as was not using any of message brokers, neverthe
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------
 
+Summary:
+
+Overall I've spent 3 hours on implementation of this simple console application. This is not final version and I do not consider it as the best implementation as I still see a lot of areas for improvement, neverthelss as this is just a coding challenge I decided not to overcomplicate it and create it as simple as possible for the user. Some of the benefit points (e.g. unit tests) were not completed because of lack of time.
 
