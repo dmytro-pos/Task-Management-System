@@ -8,6 +8,7 @@ Description: Console application which allows you to create, update and get list
 ---------------------------------------------------------------------------------------------------------------------------------
 
 Technologies used: .NET 6, Entity Framework Core, Protobuf (for serialization of messages before sending them to the queue), Spectre.Console (for a better user experience)
+
 FYI: 
 1) I haven't used any of the message brokers like Azure Serice Bus or RabbitMQ, in order to be able to run this console app locally, instead I used .NET delegates to imitate publisher/subscriber behavior
 2) I used in-memory database for storing Tasks and MenuOptions
