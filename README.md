@@ -50,7 +50,7 @@ Message: "Update request will be processed. In case of any invalid data - update
 
 Implementation: 
 
-I've created a separate ConsoleManager which is responsioble for all messages displayed to the user, so other classes are fully responsible for logic only.
+I've created a separate ConsoleManager which is responsible for all messages displayed to the user, so other classes are fully responsible for logic only.
 
 On application startup all menu options which are enabled are loaded from the database and displayed to the user.
 
