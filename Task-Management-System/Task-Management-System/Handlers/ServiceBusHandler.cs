@@ -21,7 +21,7 @@ namespace Task_Management_System.Handlers
             // Serealize data using protobuf
             byte[] serializedData = ProtobufHelper.Serialize(taskUpdateRequest);
 
-            // In order to be able to run this locally I decided to imitate queue and use delegates,
+            // In order to be able to run this locally I decided to imitate publisher/subscriber behavior and use delegates,
             // instead of explicitly using Azure Service Bus or any other message broker
             TaskUpdated?.Invoke(serializedData);
         }
